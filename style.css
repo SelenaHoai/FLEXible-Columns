@@ -1,0 +1,42 @@
+* {
+    color: white;
+}
+
+.col-3,
+.col-2,
+.col {
+    background-color: lightseagreen;
+    height: 50px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.col:first-child,
+.col-2:first-child {
+    margin-left: -10px;
+}
+
+.col:last-child,
+.col-2:last-child,
+.col-3:last-child {
+    margin-right: -10px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
